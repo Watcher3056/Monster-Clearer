@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2783543723516223233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2783543723516223263}
+  - component: {fileID: 8621363058431423217}
+  m_Layer: 0
+  m_Name: Small potion ability
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2783543723516223263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2783543723516223233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8621363058431423217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2783543723516223233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5cc9644672a5a419f949cc729a2bbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentGUID:
+    id: 461bae0f6801c5543904adcd4b0461ea
+    sourceType: 1
+    prefabId: 461bae0f6801c5543904adcd4b0461ea
+    randomId: 
+  spriteIcon: {fileID: 21300000, guid: b98e702329327d1428aeb80ea0e4379f, type: 3}
+  abilityName: Heal
+  abilityDescription: Heals you
+  extensionVisual: {fileID: 0}
+  limitDistance: 0
+  maxDistance: 0
+  spendTurn: 0
+  multiTarget: 0
+  matrixMultiTargetSetupSize: {x: 3, y: 3}
+  targetRelationType: 0
+  cost:
+    healthCur: 0
+    staminaCur: 0
+  cooldownTime: 0
+  multiTargetSetupList:
+  - {x: 0, y: 0}
+  restoreAmount:
+    healthCur: 100
+    staminaCur: 0
